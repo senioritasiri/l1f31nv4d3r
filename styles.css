@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', sans-serif; /* Fuente pixel */
+    background-color: #000000; /* Fondo oscuro */
+    color: #fff;
+}
+
+.header {
+    background-color: #262626; /* Color del encabezado */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    font-size: 24px; /* Tamaño del icono */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    color: #fff; /* Color del icono */
+  }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #bf4643; /* Nuevo color verde DedSec */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* Efecto de transición en el color del enlace */
+}
+
+nav ul li a:hover {
+    color: #bf4643; /* Nuevo color verde DedSec al pasar el mouse */
+}
+
+.main {
+    padding: 50px;
+    text-align: center;
+    height: max-content;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #bf4643; /* Nuevo color verde DedSec */
+    color: #000;
+    border: 0px solid #bf4643   ; /* Borde del mismo color */
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: transparent;
+    background-color:#ffffff;
+    color: #000; /* Nuevo color verde DedSec al pasar el mouse */
+}
+
+.image-container {
+    background-color: #000000; /* Color de fondo del contenedor de imagen */
+    height: auto; /* Altura del contenedor */
+    margin: 20px auto; /* Margen para centrar */
+    width: 20%; /* Ancho del contenedor */
+    overflow: hidden; /* Evitar que la imagen se desborde */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    background-color: #262626; /* Color del pie de página */
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Tu estilo actual */
+/* ... */
+
+#area-restringida {
+    display: none;
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    color: #fff;
+  }
+  
